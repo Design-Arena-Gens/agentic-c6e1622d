@@ -1,0 +1,29 @@
+{
+  "name": "Matter Chamber",
+  "camera": {
+    "position": [0, 3, 8],
+    "target": [0, 1.5, 0]
+  },
+  "chunks": [
+    {
+      "id": "glass-core",
+      "url": "/assets/chunks/chunk-glass.json",
+      "material": "glass"
+    },
+    {
+      "id": "smoke-veil",
+      "url": "/assets/chunks/chunk-smoke.json",
+      "material": "smoke"
+    },
+    {
+      "id": "water-floor",
+      "url": "/assets/chunks/chunk-water.json",
+      "material": "water"
+    }
+  ],
+  "audio": {
+    "intro": "/audio/intro.wav",
+    "monologue": "/audio/monologue.wav",
+    "crescendo": "/audio/crescendo.wav"
+  }
+}

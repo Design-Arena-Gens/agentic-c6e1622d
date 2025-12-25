@@ -1,0 +1,23 @@
+{
+  "gravity": [0, -9.8, 0],
+  "timeStep": 0.016,
+  "iterations": 5,
+  "materials": {
+    "glass": {
+      "density": 2.5,
+      "cohesion": 0.9,
+      "shatterVelocity": 5.0,
+      "restitution": 0.2
+    },
+    "smoke": {
+      "density": 0.2,
+      "repulsion": 1.5,
+      "fade": 0.99
+    },
+    "water": {
+      "density": 1.0,
+      "surfaceTension": 0.35,
+      "poolHeight": 0.0
+    }
+  }
+}

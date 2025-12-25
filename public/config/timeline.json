@@ -1,0 +1,65 @@
+{
+  "duration": 30,
+  "events": [
+    {
+      "time": 0,
+      "action": "camera.moveTo",
+      "params": { "position": [0, 2, 6], "duration": 2, "easing": "power2.out" }
+    },
+    {
+      "time": 0.5,
+      "action": "audio.play",
+      "params": { "clip": "intro", "loop": false, "volume": 0.8 }
+    },
+    {
+      "time": 1,
+      "action": "camera.lookAt",
+      "params": { "target": [0, 1.8, 0], "duration": 1.2, "easing": "power3.out" }
+    },
+    {
+      "time": 3,
+      "action": "character.walkTo",
+      "params": { "path": [[-1.5, 0, -2], [0, 0, 0], [1.5, 0, -1]], "duration": 6 }
+    },
+    {
+      "time": 4,
+      "action": "character.speak",
+      "params": { "clip": "monologue", "transcript": "The matter remembers...", "duration": 6 }
+    },
+    {
+      "time": 6.2,
+      "action": "splats.shatter",
+      "params": { "material": "glass", "origin": [0, 1, 0], "radius": 2.0 }
+    },
+    {
+      "time": 9.5,
+      "action": "splats.explode",
+      "params": { "material": "smoke", "origin": [0, 2.5, -1], "force": 12 }
+    },
+    {
+      "time": 12,
+      "action": "camera.focusTo",
+      "params": { "aperture": 0.8, "duration": 1.5 }
+    },
+    {
+      "time": 18,
+      "action": "audio.play",
+      "params": { "clip": "crescendo", "loop": false, "volume": 1.0 }
+    },
+    {
+      "time": 24,
+      "action": "camera.moveTo",
+      "params": { "position": [0, 5, 10], "duration": 3, "easing": "power2.inOut" }
+    },
+    {
+      "time": 25,
+      "action": "splats.explode",
+      "params": { "material": "water", "origin": [0, 0.4, 0], "force": 8 }
+    },
+    {
+      "time": 28,
+      "action": "camera.lookAt",
+      "params": { "target": [0, 0, 0], "duration": 2, "easing": "power4.inOut" }
+    }
+  ]
+}
